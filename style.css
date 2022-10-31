@@ -1,0 +1,68 @@
+body{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 400px;
+}
+
+input{
+    border: 2px solid rgb(112, 31, 194);
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#input-btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgb(112, 31, 194);
+}
+
+#input-btn:hover{
+    background-color:rgb(61, 16, 105);
+
+}
+
+#delete-btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgb(137, 31, 194);
+}
+
+#delete-btn:hover{
+    background-color: rgb(77, 20, 107);
+}
+
+
+
+#save-btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgb(194, 31, 186);
+}
+
+#save-btn:hover{
+    background-color: rgb(104, 16, 100);
+}
+
+li{
+    margin-top: 5px;
+    padding: 3px;
+    list-style: none;
+
+}
+li a{
+    color: rgb(112, 31, 194);
+    transition: all 0.1s ease-out ;
+}
+li a:hover{
+    color: orange;
+}
